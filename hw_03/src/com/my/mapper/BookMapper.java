@@ -14,13 +14,13 @@ public interface BookMapper {
     //4)根据价格查询图书
 	public List<Book> selectByPrice(int price);
     //5)根据作者、图书名查询图书
-    public Book selectWriterBookhao(String writer,int shuhao);
+   // public Book selectWriterBookhao(String writer,int shuhao);
     // 6)添加图书
     public void insertBook(Book book) ;
     //7)修改图书（根据ID）返回book
-    public  Book updateBook(int id) ;
+    public  void updateBook(Book book) ;
     // 8)删除图书（根据ID）
-    public  Book deleteBook(int id) ;
+    public  void deleteBook(int id) ;
 	
     
 

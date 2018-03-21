@@ -110,3 +110,317 @@
 2018-03-20 11:28:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
 2018-03-20 11:28:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
 2018-03-20 11:28:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:39:48 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:39:49 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:39:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:39:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:39:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:39:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:42:31 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:42:31 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:42:31 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:42:31 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:42:31 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:42:31 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:44:25 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:44:25 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:44:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:44:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:44:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:44:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:44:25 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 08:44:26 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECTLAST_INSERT_ID() AS ID 
+2018-03-21 08:44:26 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 08:46:53 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:46:53 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:46:53 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:46:53 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:46:53 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:46:53 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:46:53 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 08:46:53 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 08:46:53 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:53 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 08:46:53 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 08:46:54 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 08:47:29 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:47:30 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:47:30 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:47:30 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:47:30 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:47:30 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:47:30 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 08:47:30 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 08:47:30 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 08:48:08 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:48:08 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 08:48:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:48:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:48:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:48:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 08:48:08 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 08:48:09 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 08:48:09 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:03:27 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:03:27 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:03:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:03:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:03:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:03:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:03:28 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:03:28 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:03:28 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:10:16 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:10:16 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:10:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:10:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:10:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:10:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:10:16 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:10:17 PooledDataSource.java DEBUG Created connection 827966648.
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@3159c4b8]
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==>  Preparing: DELETE FROM tb_card WHERE id=?; 
+2018-03-21 09:10:17 BaseJdbcLogger.java DEBUG ==> Parameters: 2(Integer)
+2018-03-21 09:18:01 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:18:01 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:18:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:01 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:18:01 PooledDataSource.java DEBUG Created connection 1938056729.
+2018-03-21 09:18:01 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:01 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==>  Preparing: update tb_card SET code=? WHERE id=? 
+2018-03-21 09:18:02 BaseJdbcLogger.java DEBUG ==> Parameters: 747382(Integer), 0(Integer)
+2018-03-21 09:18:21 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:18:21 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:18:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:18:22 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:18:22 PooledDataSource.java DEBUG Created connection 1938056729.
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==>  Preparing: update tb_card SET code=? WHERE id=? 
+2018-03-21 09:18:22 BaseJdbcLogger.java DEBUG ==> Parameters: 747382(Integer), 3(Integer)
+2018-03-21 09:41:44 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:41:44 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:41:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:41:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:41:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:41:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:41:44 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:41:45 PooledDataSource.java DEBUG Created connection 1938056729.
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==>  Preparing: update tb_card SET code=? WHERE id=? 
+2018-03-21 09:41:45 BaseJdbcLogger.java DEBUG ==> Parameters: 747382(Integer), 3(Integer)
+2018-03-21 09:43:54 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:43:54 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:43:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:43:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:43:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:43:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:43:54 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:43:54 PooledDataSource.java DEBUG Created connection 1938056729.
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select p.id,p.name,p.sex,p.age,p.card_id,c.id,c.code from tb_person p,tb_card c where p.id=? and p.card_id=c.id; 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==>  Preparing: update tb_card SET code=? WHERE id=? 
+2018-03-21 09:43:54 BaseJdbcLogger.java DEBUG ==> Parameters: 747382(Integer), 3(Integer)
+2018-03-21 09:54:57 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:54:57 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-03-21 09:54:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:54:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:54:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:54:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-03-21 09:54:57 JdbcTransaction.java DEBUG Openning JDBC Connection
+2018-03-21 09:54:57 PooledDataSource.java DEBUG Created connection 1938056729.
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_card where id=? 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: SELECT LAST_INSERT_ID() AS ID 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_person(name,sex,age,card_id) values (?,?,?,?) 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: sd(String), Ů(String), 23(Integer), 0(Integer)
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ooo Using Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==>  Preparing: update tb_card SET code=? WHERE id=? 
+2018-03-21 09:54:57 BaseJdbcLogger.java DEBUG ==> Parameters: 747382(Integer), 3(Integer)
+2018-03-21 09:54:57 JdbcTransaction.java DEBUG Committing JDBC Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@73846619]
+2018-03-21 09:54:57 PooledDataSource.java DEBUG Returned connection 1938056729 to pool.

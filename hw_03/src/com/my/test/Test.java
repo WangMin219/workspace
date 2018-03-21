@@ -47,9 +47,9 @@ public class Test {
 		
 		
 		
-	Book bookWriterSHUHao = bookMapper.selectWriterBookhao("hf", 2332);
-	System.out.println(bookWriterSHUHao+"");
-   
+//	Book bookWriterSHUHao = bookMapper.selectWriterBookhao("hf", 2332);
+//	System.out.println(bookWriterSHUHao+"");
+//   
 	   //创建书对象，加入数据
 	   Book book5=new Book();
 	   book5.setBookName("javaee");
@@ -58,41 +58,20 @@ public class Test {
 	   book5.setPrice(34);
 	   //调用insertBook方法，运行查看数据是否插入
 	   bookMapper.insertBook(book5);
+	   //创建对象
+	   Book book6=new Book();
+	   book6.setId(3); 
 	   
+	   book6.setPrice(34);
 	   //调用updateBook方法
-	  Book book6= bookMapper.updateBook(2);
+	   bookMapper.updateBook(book6);
 	  //Book的头String 方法写过了，不需要在再写了，直接用创建的对象名就可以了
 	  System.out.println(book6);
 	  
 	  
 	   //调用deleteBook方法
-		  Book book7= bookMapper.deleteBook(5);
-		//调用deleteBook方法
-		  Book book8= bookMapper.deleteBook(8);
-		  
+	    bookMapper.deleteBook(6);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 
 		sqlSession.commit();
 		sqlSession.close();

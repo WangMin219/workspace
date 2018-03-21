@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Gm5_4CvjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Gm5_4SvjEeiwU6ylIMiGqg" bindingContexts="_Gm7OTCvjEeiwU6ylIMiGqg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Book.java&quot; tooltip=&quot;hw_03/src/com/vo/Book.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/vo/Book.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;hw_03/src/com/my/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;BookMapper.xml&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/mapper/BookMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookMapper.java&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/mapper/BookMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;PersonMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/PersonMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;CardMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/CardMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PersonMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/PersonMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;UserMapper.xml&quot; tooltip=&quot;day03_16/src/com/my/mapper/UserMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_16/src/com/my/mapper/UserMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;StudentMapper.xml&quot; tooltip=&quot;day03_16/src/com/my/mapper/StudentMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_16/src/com/my/mapper/StudentMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;mybatis.cfg.xml&quot; tooltip=&quot;hw_03/src/mybatis.cfg.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/mybatis.cfg.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;mybatis.cfg.xml&quot; tooltip=&quot;day03_20_1/src/mybatis.cfg.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/mybatis.cfg.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/CardMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;day03_19/src/com/my/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_19/src/com/my/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;hw_03/src/com/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;day03_20_1/src/com/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;StudentMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/StudentMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/StudentMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/StudentMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/StudentMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClazzMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/ClazzMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/ClazzMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;ClazzMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/ClazzMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/ClazzMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;CardMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/CardMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Clazz.java&quot; tooltip=&quot;day03_20_1/src/com/vo/Clazz.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/vo/Clazz.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Student.java&quot; tooltip=&quot;day03_20_1/src/com/vo/Student.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/vo/Student.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PersonMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/PersonMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;PersonMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/PersonMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/mapper/CardMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;hw_03/src/com/my/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;BookMapper.xml&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/mapper/BookMapper.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookMapper.java&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/hw_03/src/com/my/mapper/BookMapper.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; tooltip=&quot;day03_20_1/src/com/test/Test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/test/Test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Card.java&quot; tooltip=&quot;day03_20_1/src/com/vo/Card.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/day03_20_1/src/com/vo/Card.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Gm5_4SvjEeiwU6ylIMiGqg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Gm5_4ivjEeiwU6ylIMiGqg" label="%trimmedwindow.label.eclipseSDK" x="236" y="0" width="1024" height="762">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Gm5_4SvjEeiwU6ylIMiGqg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Gm5_4ivjEeiwU6ylIMiGqg" label="%trimmedwindow.label.eclipseSDK" x="155" y="400" width="1024" height="762">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1521512866537"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_Gm5_4ivjEeiwU6ylIMiGqg" selectedElement="_Gm5_4yvjEeiwU6ylIMiGqg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_Gm5_4yvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_Gm5__SvjEeiwU6ylIMiGqg">
         <children xsi:type="advanced:Perspective" xmi:id="_Gm5_5CvjEeiwU6ylIMiGqg" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_Gm5_5SvjEeiwU6ylIMiGqg" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
@@ -168,9 +167,11 @@
           <tags>persp.showIn:org.eclipse.eclemma.ui.CoverageView</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Gm5__ivjEeiwU6ylIMiGqg" selectedElement="_Gm6ACSvjEeiwU6ylIMiGqg" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Gm5__yvjEeiwU6ylIMiGqg" containerData="3032" selectedElement="_Gm6AACvjEeiwU6ylIMiGqg">
-              <children xsi:type="basic:PartStack" xmi:id="_Gm6AACvjEeiwU6ylIMiGqg" elementId="left" containerData="6000" selectedElement="_Gm6AASvjEeiwU6ylIMiGqg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Gm5__yvjEeiwU6ylIMiGqg" visible="false" containerData="3032" selectedElement="_Gm6AACvjEeiwU6ylIMiGqg">
+              <children xsi:type="basic:PartStack" xmi:id="_Gm6AACvjEeiwU6ylIMiGqg" elementId="left" visible="false" containerData="6000" selectedElement="_Gm6AASvjEeiwU6ylIMiGqg">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>noFocus</tags>
+                <tags>Minimized</tags>
                 <tags>MinimizedByZoom</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Gm6AASvjEeiwU6ylIMiGqg" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_Gm6nLyvjEeiwU6ylIMiGqg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Gm6AAivjEeiwU6ylIMiGqg" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_Gm6CSivjEeiwU6ylIMiGqg"/>
@@ -183,7 +184,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_Gm6ACSvjEeiwU6ylIMiGqg" containerData="6968" selectedElement="_ys88cCvuEeibNOlSQikiaQ" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_ys88cCvuEeibNOlSQikiaQ" containerData="5000" selectedElement="_CMgDwCwoEeibNOlSQikiaQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_ys88cCvuEeibNOlSQikiaQ" containerData="6750" selectedElement="_CMgDwCwoEeibNOlSQikiaQ">
                 <children xsi:type="basic:PartStack" xmi:id="_Gm6AEivjEeiwU6ylIMiGqg" elementId="bottom" toBeRendered="false" containerData="5000">
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
                   <tags>MinimizedByZoom</tags>
@@ -196,15 +197,17 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_Gm6AGivjEeiwU6ylIMiGqg" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" toBeRendered="false" ref="_Gm6npyvjEeiwU6ylIMiGqg"/>
                 </children>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_CMgDwCwoEeibNOlSQikiaQ" containerData="5000" selectedElement="_Gm6ACivjEeiwU6ylIMiGqg">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_Gm6ACivjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.editorss" containerData="8799" ref="_Gm6BZSvjEeiwU6ylIMiGqg">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_Gm6ACivjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.editorss" containerData="5765" ref="_Gm6BZSvjEeiwU6ylIMiGqg">
                     <tags>Maximized</tags>
                   </children>
-                  <children xsi:type="basic:PartStack" xmi:id="_-3-_ASwnEeibNOlSQikiaQ" elementId="PartStack@49552f42" containerData="1201" selectedElement="_Gm6AFyvjEeiwU6ylIMiGqg">
+                  <children xsi:type="basic:PartStack" xmi:id="_-3-_ASwnEeibNOlSQikiaQ" elementId="PartStack@49552f42" visible="false" containerData="4235" selectedElement="_Gm6AFyvjEeiwU6ylIMiGqg">
+                    <tags>Minimized</tags>
+                    <tags>MinimizedByZoom</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_Gm6AFyvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.console.ConsoleView" ref="_Gm6CdSvjEeiwU6ylIMiGqg"/>
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Gm6ACyvjEeiwU6ylIMiGqg" visible="false" containerData="2500">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Gm6ACyvjEeiwU6ylIMiGqg" visible="false" containerData="750">
                 <children xsi:type="basic:PartStack" xmi:id="_Gm6ADCvjEeiwU6ylIMiGqg" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" visible="false" containerData="5000" selectedElement="_Gm6ADSvjEeiwU6ylIMiGqg">
                   <tags>Minimized</tags>
                   <tags>MinimizedByZoom</tags>
@@ -253,7 +256,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Gm6BZSvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.editorss" selectedElement="_Gm6BZivjEeiwU6ylIMiGqg">
-      <children xsi:type="basic:PartStack" xmi:id="_Gm6BZivjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_1X4vgCwsEeilQNbR7Egmtg">
+      <children xsi:type="basic:PartStack" xmi:id="_Gm6BZivjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_BGNEcCy0Eeiv5oKjAqOidw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -302,7 +305,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Gm6CBSvjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CardMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;CardMapper.xml&quot; partName=&quot;CardMapper.xml&quot; title=&quot;CardMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/CardMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;8&quot; selectionOffset=&quot;442&quot; selectionTopPixel=&quot;6&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;CardMapper.xml&quot; partName=&quot;CardMapper.xml&quot; title=&quot;CardMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/CardMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;43&quot; selectionOffset=&quot;146&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
           <tags>removeOnHide</tags>
@@ -338,7 +341,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Gm6CDCvjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PersonMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;PersonMapper.xml&quot; partName=&quot;PersonMapper.xml&quot; title=&quot;PersonMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/PersonMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1055&quot; selectionTopPixel=&quot;342&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;PersonMapper.xml&quot; partName=&quot;PersonMapper.xml&quot; title=&quot;PersonMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/PersonMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;140&quot; selectionOffset=&quot;396&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
           <tags>removeOnHide</tags>
@@ -374,7 +377,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Gm6CEyvjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CardMapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardMapper.java&quot; partName=&quot;CardMapper.java&quot; title=&quot;CardMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/CardMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;143&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CardMapper.java&quot; partName=&quot;CardMapper.java&quot; title=&quot;CardMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/CardMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/CardMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;203&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -396,7 +399,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Gm6CFyvjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PersonMapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PersonMapper.java&quot; partName=&quot;PersonMapper.java&quot; title=&quot;PersonMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/PersonMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;225&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PersonMapper.java&quot; partName=&quot;PersonMapper.java&quot; title=&quot;PersonMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/PersonMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/PersonMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;237&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -498,7 +501,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_Gm6CKivjEeiwU6ylIMiGqg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Test.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;day03_20_1/src/com/test/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/test/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1384&quot; selectionTopPixel=&quot;570&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;day03_20_1/src/com/test/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/test/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1509&quot; selectionTopPixel=&quot;731&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -526,19 +529,19 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LkrUECwoEeibNOlSQikiaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Test.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;hw_03/src/com/my/test/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/test/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1767&quot; selectionTopPixel=&quot;1239&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Test.java&quot; partName=&quot;Test.java&quot; title=&quot;Test.java&quot; tooltip=&quot;hw_03/src/com/my/test/Test.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/test/Test.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2420&quot; selectionTopPixel=&quot;1293&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_fawGoCwoEeibNOlSQikiaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookMapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookMapper.java&quot; partName=&quot;BookMapper.java&quot; title=&quot;BookMapper.java&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/mapper/BookMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;463&quot; selectionTopPixel=&quot;33&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookMapper.java&quot; partName=&quot;BookMapper.java&quot; title=&quot;BookMapper.java&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/mapper/BookMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;432&quot; selectionTopPixel=&quot;27&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_hV2hYCwoEeibNOlSQikiaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;BookMapper.xml&quot; partName=&quot;BookMapper.xml&quot; title=&quot;BookMapper.xml&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/mapper/BookMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1508&quot; selectionTopPixel=&quot;1050&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;BookMapper.xml&quot; partName=&quot;BookMapper.xml&quot; title=&quot;BookMapper.xml&quot; tooltip=&quot;hw_03/src/com/my/mapper/BookMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/hw_03/src/com/my/mapper/BookMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1301&quot; selectionTopPixel=&quot;831&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
           <tags>removeOnHide</tags>
@@ -554,8 +557,6 @@
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_29lFgCwtEeilQNbR7Egmtg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StudentMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;StudentMapper.xml&quot; partName=&quot;StudentMapper.xml&quot; title=&quot;StudentMapper.xml&quot; tooltip=&quot;day03_16/src/com/my/mapper/StudentMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_16/src/com/my/mapper/StudentMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;54&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -565,6 +566,44 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_4P1XkCwtEeilQNbR7Egmtg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="UserMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;UserMapper.xml&quot; partName=&quot;UserMapper.xml&quot; title=&quot;UserMapper.xml&quot; tooltip=&quot;day03_16/src/com/my/mapper/UserMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_16/src/com/my/mapper/UserMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;195&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_dHATMCyoEeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Clazz.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Clazz.java&quot; partName=&quot;Clazz.java&quot; title=&quot;Clazz.java&quot; tooltip=&quot;day03_20_1/src/com/vo/Clazz.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/vo/Clazz.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;4&quot; selectionOffset=&quot;555&quot; selectionTopPixel=&quot;504&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_rlbEkCyoEeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Student.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Student.java&quot; partName=&quot;Student.java&quot; title=&quot;Student.java&quot; tooltip=&quot;day03_20_1/src/com/vo/Student.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/vo/Student.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;3&quot; selectionOffset=&quot;119&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_wDFT8CyuEeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StudentMapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StudentMapper.java&quot; partName=&quot;StudentMapper.java&quot; title=&quot;StudentMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/StudentMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/StudentMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_3EBnICyuEeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="StudentMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;StudentMapper.xml&quot; partName=&quot;StudentMapper.xml&quot; title=&quot;StudentMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/StudentMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/StudentMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;16&quot; selectionOffset=&quot;577&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_BGNEcCy0Eeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ClazzMapper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ClazzMapper.java&quot; partName=&quot;ClazzMapper.java&quot; title=&quot;ClazzMapper.java&quot; tooltip=&quot;day03_20_1/src/com/mapper/ClazzMapper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/ClazzMapper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;149&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_DzRusCy0Eeiv5oKjAqOidw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ClazzMapper.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;ClazzMapper.xml&quot; partName=&quot;ClazzMapper.xml&quot; title=&quot;ClazzMapper.xml&quot; tooltip=&quot;day03_20_1/src/com/mapper/ClazzMapper.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/day03_20_1/src/com/mapper/ClazzMapper.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;15&quot; selectionOffset=&quot;568&quot; selectionTopPixel=&quot;163&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
           <tags>removeOnHide</tags>
@@ -847,7 +886,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gm6nrSvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p7w9kCxEEeizkJZ1En-rfQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Gm9FZSvjEeiwU6ylIMiGqg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Ry73kCygEeiv5oKjAqOidw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Gm9FZSvjEeiwU6ylIMiGqg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gm6nuivjEeiwU6ylIMiGqg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -880,7 +919,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gm6oHyvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p71PACxEEeizkJZ1En-rfQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Gm9FCCvjEeiwU6ylIMiGqg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_RzAJACygEeiv5oKjAqOidw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Gm9FCCvjEeiwU6ylIMiGqg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Gm6oLCvjEeiwU6ylIMiGqg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -914,12 +953,12 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_Gm6oSSvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.trim.vertical1" toBeRendered="false" side="Left">
+    <trimBars xmi:id="_Gm6oSSvjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.trim.vertical1" side="Left">
       <children xsi:type="menu:ToolControl" xmi:id="_Gm6oSivjEeiwU6ylIMiGqg" elementId="org.eclipse.ui.ide.perspectivestack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_Gm6oSyvjEeiwU6ylIMiGqg" elementId="left(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+      <children xsi:type="menu:ToolControl" xmi:id="_Gm6oSyvjEeiwU6ylIMiGqg" elementId="left(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
@@ -938,6 +977,10 @@
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_gO3UsCvnEeibNOlSQikiaQ" elementId="bottom(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_NRsfACy2Eeiv5oKjAqOidw" elementId="PartStack@49552f42(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>

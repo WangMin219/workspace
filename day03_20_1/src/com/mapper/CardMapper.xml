@@ -6,9 +6,7 @@
 <select id="selectCardById" resultType="com.vo.Card">
 	select * from tb_card where id=#{id}
 </select>
-<selectKey keyProperty="id" resultType="int" order="AFTER">
-SELECTLAST_INSERT_ID() AS ID
-</selectKey>
+
 
 
 
@@ -16,8 +14,31 @@ SELECTLAST_INSERT_ID() AS ID
 
 <!-- 插入一条数据 -->
 <insert id="saveCard" parameterType="com.vo.Card">
+<selectKey keyProperty="id" resultType="int" order="AFTER">
+SELECT LAST_INSERT_ID() AS ID
+</selectKey>
 insert into tb_card(code)
 values (#{code})
-
 </insert>
+
+
+
+<delete id="delectCardById" parameterType="int" > 
+DELETE FROM tb_card
+WHERE id=#{id};
+</delete>
+
+
+
+
+
+
+
+
+<!-- updateCard -->
+<update id="updateCard" parameterType="com.vo.Card"> 
+update tb_card SET code=#{code} WHERE id=#{id}
+</update>
+
+
 </mapper>

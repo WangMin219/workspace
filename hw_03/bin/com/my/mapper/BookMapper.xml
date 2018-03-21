@@ -31,9 +31,9 @@
 </select>
 
 
-<select id="selectWriterBookhao"  resultType="com.vo.Book"> 
+<!--  <select id="selectWriterBookhao"  resultType="com.vo.Book"> 
 	select * from tb_book where (writer=#{writer} and bookNum=#{bookNum});
-</select>
+</select> -->
 
 <!-- 对应的是insertBook方法  -->
 <select id="insertBook" parameterType="com.vo.Book"> 
@@ -43,15 +43,15 @@ values(#{isbn},#{bookName},#{writer},#{price},#{bookNum})
 
 
 <!-- 对应的是updateBook方法  -->
-<select id="updateBook" parameterType="int" resultType="com.vo.Book"> 
-update tb_book SET writer='敏宝宝5', price=1000 WHERE id=#{id}
-</select>
+<update id="updateBook" parameterType="com.vo.Book"> 
+update tb_book SET price=#{price} WHERE id=#{id}
+</update>
 
 <!-- 对应的是deleteBook方法  -->
-<select id="deleteBook" parameterType="int" resultType="com.vo.Book"> 
+<delete id="deleteBook" parameterType="int" > 
 DELETE FROM tb_book
 WHERE id=#{id};
-</select>
+</delete>
 
 
 
