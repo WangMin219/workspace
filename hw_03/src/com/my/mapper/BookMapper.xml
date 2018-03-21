@@ -36,10 +36,10 @@
 </select> -->
 
 <!-- 对应的是insertBook方法  -->
-<select id="insertBook" parameterType="com.vo.Book"> 
+<insert id="insertBook" parameterType="com.vo.Book"> 
 insert into tb_book(isbn,bookName,writer,price,bookNum) 
 values(#{isbn},#{bookName},#{writer},#{price},#{bookNum})
-</select>
+</insert>
 
 
 <!-- 对应的是updateBook方法  -->
