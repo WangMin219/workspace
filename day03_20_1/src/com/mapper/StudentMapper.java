@@ -9,4 +9,5 @@ public Student selectStudentById(Integer id);
 	
 	public List<Student> selectStudentByClazzId(Integer id);
 	public void insertStudent(Student student);
+	public void deleteStudentById(int id);
 }

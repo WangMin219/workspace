@@ -31,6 +31,11 @@
 	insert into tb_student (name,sex,age,clazz_id)
 	values(#{name},#{sex},#{age},#{clazz_id})
 	</insert>
+	
+	
+	<delete id="deleteStudentById" parameterType="int">
+	delete from tb_student where id=#{id}
+	</delete>
 
 
 

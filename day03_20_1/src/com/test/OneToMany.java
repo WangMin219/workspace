@@ -2,6 +2,7 @@ package com.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -24,20 +25,18 @@ public class OneToMany {
 			SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
 			
 			SqlSession session=sqlSessionFactory.openSession();
+			//查询测试
+			ClazzMapper cm23=session.getMapper(ClazzMapper.class);
+
+			//删除学生
+			StudentMapper sm1=session.getMapper(StudentMapper.class);
+			List<Student> list=sm1.selectStudentByClazzId(2);
+			if(list.size()>0) {
+				System.out.println("班级游学生，无法删除");
+			}else {
+				cm23.deleteClazzById(2);
+			}
 			
-			ClazzMapper cm=session.getMapper(ClazzMapper.class);
-			Clazz c1=new Clazz();
-			c1.setCode(214);
-			c1.setName("敏宝宝");
-			cm.insertClazz(c1);
-			
-			StudentMapper sm=session.getMapper(StudentMapper.class);
-			Student s1=new Student();
-			s1.setName("ajk");
-			s1.setAge(12);
-			s1.setSex("女");
-			s1.setClazz_id(1);
-		
 		    session.commit();
 		    session.close();
 			

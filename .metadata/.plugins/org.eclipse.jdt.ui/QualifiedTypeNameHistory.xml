@@ -2,7 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.vo.Card"/>
 <fullyQualifiedTypeName name="com.mapper.CardMapper"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
 <fullyQualifiedTypeName name="com.vo.Clazz"/>
+<fullyQualifiedTypeName name="com.mapper.StudentMapper"/>
 <fullyQualifiedTypeName name="com.vo.Student"/>
+<fullyQualifiedTypeName name="com.mapper.ClazzMapper"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
