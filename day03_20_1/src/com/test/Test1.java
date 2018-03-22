@@ -9,16 +9,12 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import com.mapper.CardMapper;
 import com.mapper.ClazzMapper;
-import com.mapper.PersonMapper;
 import com.mapper.StudentMapper;
-import com.vo.Card;
-import com.vo.Clazz;
-import com.vo.Person;
 import com.vo.Student;
 
-public class OneToMany {
+public class Test1 {
+
 	public static void main(String[] args) {
 		try {
 			InputStream inputStream=Resources.getResourceAsStream("mybatis.cfg.xml");
@@ -50,7 +46,7 @@ public class OneToMany {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 
 }
