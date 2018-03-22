@@ -2,6 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.vo.Card"/>
 <fullyQualifiedTypeName name="com.mapper.CardMapper"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.vo.Clazz"/>
+<fullyQualifiedTypeName name="com.vo.Student"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

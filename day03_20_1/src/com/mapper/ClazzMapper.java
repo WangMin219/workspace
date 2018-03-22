@@ -5,6 +5,8 @@ import java.util.List;
 import com.vo.Clazz;
 
 public interface ClazzMapper {
-	public List<Clazz> selectClazzById(int id);
+	public Clazz selectClazzById(int id);
+	public void insertClazz(Clazz clazz);
+
 
 }
