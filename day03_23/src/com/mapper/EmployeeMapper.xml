@@ -67,6 +67,7 @@
 
 
 	<!-- 模糊查询方法一 -->
+	<select id="selectVagueFa1" resultType="com.vo"></select>
 
 
 
