@@ -27,19 +27,19 @@ public class OneToMany {
 			SqlSession session=sqlSessionFactory.openSession();
 			//查询测试
 			ClazzMapper cm23=session.getMapper(ClazzMapper.class);
-
+            
 			//删除班级
 			StudentMapper sm1=session.getMapper(StudentMapper.class);
 			List<Student> list=sm1.selectStudentByClazzId(2);
 			if(list.size()>0) {
 				System.out.println("班级有学生，无法删除");
 			}else {
-				cm23.deleteClazzById(2);
+				cm23.deleteClazzById(24);
 			}
 			
 			
 			//删除学生
-			sm1.deleteStudentById(2);
+			sm1.deleteStudentById(4);
 			
 		    session.commit();
 		    session.close();
