@@ -1,4 +1,6 @@
-package com.zt.s7;
+package com.s7;
+
+
 
 public class T5 {
 	public static String remain(int[] a)

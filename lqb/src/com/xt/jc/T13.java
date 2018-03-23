@@ -1,4 +1,6 @@
-package com.lqb.jc;
+package com.xt.jc;
+
+
 
 import java.util.Scanner;
 

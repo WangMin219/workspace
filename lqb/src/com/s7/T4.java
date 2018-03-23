@@ -1,4 +1,6 @@
-package com.zt.s7;
+package com.s7;
+
+
 
 public class T4 {
 	public static int gcd(int a, int b)

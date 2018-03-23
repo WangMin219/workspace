@@ -1,4 +1,6 @@
-package com.lqb.rm;
+package com.xt.rm;
+
+
 
 import java.util.Scanner;
 
