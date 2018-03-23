@@ -30,8 +30,6 @@
         <!-- 告知映射文件方式1，一个一个的配置-->
         <mapper resource="com/mapper/PersonMapper.xml"/>
         <mapper resource="com/mapper/CardMapper.xml"/>
-        <mapper resource="com/mapper/ClazzMapper.xml"/>
-        <mapper resource="com/mapper/StudentMapper.xml"/>
     </mappers>
 
 
