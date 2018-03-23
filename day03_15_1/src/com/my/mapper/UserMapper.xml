@@ -5,6 +5,6 @@
 <insert id="save" parameterType="com.vo.User"  
 useGeneratedKeys="true" keyProperty="id">
         insert into tb_user (name,sex,age) values 
-(#{name},#{sex},#{age})
+        (#{name},#{sex},#{age})
     </insert>
 </mapper>

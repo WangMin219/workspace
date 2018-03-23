@@ -20,7 +20,7 @@ public class Test {
 		SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
 		SqlSession sqlSession=sqlSessionFactory.openSession();
 		StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
-		Student stu = studentMapper.getStuById();
+		Student stu = studentMapper.selectStuById();
 		System.out.println(stu);
 		sqlSession.commit();
 		sqlSession.close();
