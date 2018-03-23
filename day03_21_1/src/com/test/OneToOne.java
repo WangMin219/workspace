@@ -13,7 +13,7 @@ import com.mapper.PersonMapper;
 import com.vo.Card;
 import com.vo.Person;
 
-public class Test {
+public class OneToOne {
 	public static void main(String[] args) {
 		try {
 			InputStream inputStream=Resources.getResourceAsStream("mybatis.cfg.xml");
