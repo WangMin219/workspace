@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.EmployeeMapper">
+
+	<!-- 查询Employee -->
+	<select id="selectAllEmployeeIf" resultType="com.vo.Employee">
+		select * from tb_employee where state='ACTIVE'
+		<if test="loginname!=null and password!=null">
+			and loginname=#{loginname} and password=#{password}
+		</if>
+	</select>
+	<select id="selectAllEmployeeChoose" resultType="com.vo.Employee">
+		select * from tb_employee where state='ACTIVE'
+		<choose>
+			<when test="id!=null">
+				and id=#{id}
+			</when>
+			<when test="loginname!=null and password!=null">
+				and loginname=#{loginname} and password=#{password}
+			</when>
+			<otherwise>
+				and sex="男"
+			</otherwise>
+		</choose>
+	</select>
+
+	<!-- -->
+	<select id="selectEmployeeLike" resultType="com.vo.Employee">
+		select * from tb_employee
+		<where>
+			<if test="state != null">
+				state=#{state}
+			</if>
+			<if test="id != null">
+				id=#{id}
+			</if>
+			<if test="loginname != null  and password != null">
+				and loginname = #{loginname} and password = #{password}
+			</if>
+		</where>
+	</select>
+
+	<!-- 修改 -->
+	<update id="updateEmployeeBySet" parameterType="com.vo.Employee">
+		update tb_employee
+		<set>
+			<if test="loginname != null">loginname=#{loginname},</if>
+			<if test="password != null">password=#{password},</if>
+			<if test="name != null">name=#{name},</if>
+			<if test="sex != null">sex=#{sex},</if>
+			<if test="age != null">age=#{age},</if>
+			<if test="phone != null">phone=#{phone},</if>
+			<if test="state != null">state=#{state}</if>
+		</set>
+		where id=#{id}
+	</update>
+
+	<!-- 范围查询 -->
+	<select id="selectForeach" resultType="com.vo.Employee">
+		select * from tb_employee where id in
+		<foreach item="item" index="index" collection="list" open="("
+			separator="," close=")">
+			#{item}
+		</foreach>
+	</select>
+
+
+	<!-- 模糊查询方法一 -->
+
+
+
+
+
+
+</mapper>
