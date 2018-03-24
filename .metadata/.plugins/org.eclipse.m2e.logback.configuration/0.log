@@ -141,3 +141,4 @@ Caused by: org.apache.http.ConnectionClosedException: Premature end of Content-L
 =======
 >>>>>>> fc95ccf1494b52d1f023cf503801b0cba143d7e9
 >>>>>>> 767bcd8a724da14bcaf91473994555fc8f27548b
+2018-03-24 17:38:02,496 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
