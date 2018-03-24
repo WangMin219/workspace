@@ -3151,7 +3151,11 @@ java.net.ConnectException: Connection timed out: connect
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+<<<<<<< HEAD
 !SESSION 2018-03-24 12:00:10.511 -----------------------------------------------
+=======
+!SESSION 2018-03-24 11:29:28.690 -----------------------------------------------
+>>>>>>> fc95ccf1494b52d1f023cf503801b0cba143d7e9
 eclipse.buildId=4.7.2.M20171130-0510
 java.version=1.8.0_162
 java.vendor=Oracle Corporation
@@ -3159,6 +3163,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2018-03-24 12:00:40.077
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2018-03-24 12:00:40.077
@@ -3322,6 +3327,15 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 !SESSION 2018-03-24 12:03:47.761 -----------------------------------------------
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-24 11:29:43.570
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\14261'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-24 11:41:54.895 -----------------------------------------------
+>>>>>>> fc95ccf1494b52d1f023cf503801b0cba143d7e9
 eclipse.buildId=4.7.2.M20171130-0510
 java.version=1.8.0_162
 java.vendor=Oracle Corporation
@@ -3329,6 +3343,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 2 10035 2018-03-24 12:03:55.425
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -3344,3 +3359,11 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2018-03-24 12:04:39.874
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-24 11:42:10.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\14261'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> fc95ccf1494b52d1f023cf503801b0cba143d7e9
