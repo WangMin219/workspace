@@ -3,7 +3,7 @@ package com.xt.jc;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class T4 {
 	
 	
 	public static void test()

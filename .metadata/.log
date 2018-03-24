@@ -3096,3 +3096,15 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/lqb/src/com/s
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2018-03-23 21:48:57.471
 !MESSAGE Cannot determine URI for '/lqb/src/com/s7/T3.java'.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-23 23:21:37.378
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-23 23:21:37.406
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-23 23:21:45.084
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-23 23:21:45.096
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
