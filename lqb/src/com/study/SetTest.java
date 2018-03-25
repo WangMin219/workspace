@@ -8,9 +8,6 @@ public class SetTest {
 		int a[]= {1,2,3,4,5,1,2,3,4};
 		Set set=new TreeSet();
 		
-		for(int i=0;i<set.size();i++) {
-			System.out.println(a[i]);
-		}
 		
 	}
 
