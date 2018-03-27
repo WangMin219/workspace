@@ -1,21 +1,36 @@
 package com.s8;
 
-public class T3 {
-	public static void main(String[] args) {
-		int a[][]=new int[10][10];
-		for(int r=1;r<=4;r++) {
-			
-			for(int i=1;i<9;i++) {
-				for(int j=1;j<=i;j++) {
-					for(int z=1;z<=j;z++) {
-						for(int s=1;s<=z;s++) {
-							System.out.print(i+""+j+""+z+""+s);
-						}
-					}
-				}
-			}
-			
-		}
-		
-	}
-}
+    public class T3 {  
+        public static void main(String[] args) {  
+            // TODO Auto-generated method stub  
+            int count = 0;  
+            for (int i = 1; i < 10; i++) {  
+                for (int j = 1; j < 10; j++) {  
+                    for (int k = 1; k < 10; k++) {  
+                        for (int l = 1; l < 10; l++) {  
+                            for (int m = 1; m < 10; m++) {  
+                                for (int n = 1; n < 10; n++) {  
+                                    for (int o = 1; o < 10; o++) {  
+                                        for (int p = 1; p < 10; p++) {  
+                                            for (int q = 1; q < 10; q++) {  
+                                                if ((i + j + k + l) == (l + m + n + o) && (i + j + k + l) == (o + q + p + i)  
+                                                        && i != j && i != k && i != l && i != m && i != n && i != o  
+                                                        && i != p && i != q && j != k && j != l && j != m && j != n  
+                                                        && j != o && j != p && j != q && k != l && k != m && k != n  
+                                                        && k != o && k != p && k != q && l != m && l != n && l != o  
+                                                        && l != p && l != q && m != n && m != o && m != p && m != q  
+                                                        && n != o && n != p && n != q && o != p && o != q && p != q) {  
+                                                    count++;  
+                                                }  
+                                            }  
+                                        }  
+                                    }  
+                                }  
+                            }  
+                        }  
+                    }  
+                }  
+            }  
+            System.out.println(count / 6);// 旋转是三种相同的，镜像也是三种相同的。所以除以6  
+        }  
+    }  
