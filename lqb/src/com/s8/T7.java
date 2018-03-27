@@ -19,7 +19,7 @@ public class T7 {
 		if(n==702) {
 			System.out.println("zz");
 		}
-		if()
+		
 //	//	while(n!=0) {
 //			int w=n/26;
 //			System.out.print((char)(65+w));
