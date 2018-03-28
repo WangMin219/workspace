@@ -1,8 +1,8 @@
-package com.s8;
+package com.s6;
 
 
 
-public class T2_buzhiming {
+public class T2 {
 	public static void main(String[] args) {
 		int j=0;
 		for(int i=1;i<=9;i++) {
