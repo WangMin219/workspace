@@ -1,4 +1,5 @@
 package com.s8;
+
 public class A
 {
 	// 杨辉三角形的第row行第col列
