@@ -3,8 +3,10 @@
 
 <mapper namespace="com.my.mapper.StudentMapper"> 
 
-<select id="selectStuById" resultType="com.vo.Student">
-	select * from student where stuNo=#{stuNo}
+<select id="selectStuById" parameterType="int" resultType="com.vo.Student">
+	select * from student where StuNo=#{StuNo}
 </select>
+
+
 
 </mapper>

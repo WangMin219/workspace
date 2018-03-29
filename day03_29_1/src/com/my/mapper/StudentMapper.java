@@ -5,6 +5,7 @@ import com.vo.Student;
 public interface StudentMapper {
 	
 
-	public Student selectStuById(int stuNo);
+	public Student selectStuById(Integer stuNo);
+	public void delectStuById(int id);
 
 }
