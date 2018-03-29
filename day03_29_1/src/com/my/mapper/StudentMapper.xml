@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.my.mapper.StudentMapper"> 
+<!-- 开启二级缓存 回收策略为先进先出 自动刷新时间60s 最多缓存512个引用对象 只读 -->
+
+
+<!-- <cache readOnly="true" size="512" flushInterval="60000" eviction="LRU"/> -->
+         
+<select id="selectStuById" resultType="com.vo.Student">
+	select * from student where stuNo=#{stuNo}
+</select>
+<!-- 根据id删除 学生信息-->
+<delete id="delectStuById" parameterMap="int">
+delete from student where id=#{id};
+</delete>
+
+</mapper>

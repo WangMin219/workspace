@@ -3,8 +3,11 @@
 
 <mapper namespace="com.my.mapper.StudentMapper"> 
 
-<select id="selectStuById" resultType="com.vo.Student">
-	select * from student where stuNo=#{stuNo}
-</select>
+<insert id="insertStudent" parameterType="com.vo.Student"> 
+insert into student(stuNo,stuName,sex,age,phone) 
+values(#{stuNo},#{stuName},#{sex},#{age},#{phone})
+</insert>
+
+
 
 </mapper>
