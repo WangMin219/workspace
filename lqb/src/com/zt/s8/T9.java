@@ -1,4 +1,4 @@
-package com.s8;
+package com.zt.s8;
 
 import java.util.Scanner;
 

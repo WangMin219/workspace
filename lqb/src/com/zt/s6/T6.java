@@ -1,4 +1,4 @@
-package com.s6;
+package com.zt.s6;
 
 public class T6 {
 	public static void main(String[] args) {

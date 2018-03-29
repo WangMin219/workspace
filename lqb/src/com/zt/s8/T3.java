@@ -1,4 +1,4 @@
-package com.s8;
+package com.zt.s8;
 
 /*标题：纸牌三角形
 
