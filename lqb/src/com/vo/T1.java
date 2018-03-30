@@ -1,5 +1,7 @@
 package com.vo;
 
+import java.math.BigInteger;
+
 public class T1 {
 	public static void main(String[] args) {
 		for(int i1=1;i1<=9;i1++) {
