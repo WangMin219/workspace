@@ -29,6 +29,11 @@
 	insert into tb_order (orderNo,orderTime,orderPerson)
 	values(#{orderNo},#{orderTime},#{orderPerson})
 	</insert>
+	
+	
+	<delete id=" " parameterType="int">
+	delete from tb_order where id=#{id}
+	</delete>
     
 
 

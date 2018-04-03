@@ -37,6 +37,19 @@ public class OneToMany {
 			OrderMapper om=session.getMapper(OrderMapper.class);
 			ProductMapper pm=session.getMapper(ProductMapper.class);
 			Order o1=new Order();
+			o1.setOrderNo("123442");
+			o1.setOrderTime("746");
+			o1.setOrderPerson("skjfj");
+			om.insertOrder(o1);
+			
+			Product pro1=new Product();
+			pro1.setProNo("14");
+			pro1.setProName("uidfh");
+			pro1.setPrice(1234);
+			pro1.setProNum(672347);
+			pro1.setOrder_id(o1.getId());
+			pm.insertProduct(pro1);
+			
 			
 			
 			

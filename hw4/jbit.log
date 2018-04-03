@@ -1346,3 +1346,41 @@
 2018-04-03 20:46:41 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
 2018-04-03 20:46:41 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@64bf3bbf]
 2018-04-03 20:46:41 PooledDataSource.java DEBUG Returned connection 1690254271 to pool.
+2018-04-03 21:05:26 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 21:05:26 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 21:05:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:26 JdbcTransaction.java DEBUG Opening JDBC Connection
+2018-04-03 21:05:27 PooledDataSource.java DEBUG Created connection 112061925.
+2018-04-03 21:05:27 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_order (orderNo,orderTime,orderPerson) values(?,?,?) 
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG ==> Parameters: 123442(String), 746(String), skjfj(String)
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG <==    Updates: 1
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_product (proNo,proName,type,proNum,price) values(?,?,?,?,?) 
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG ==> Parameters: 14(String), uidfh(String), null, 672347(Integer), 1234(Integer)
+2018-04-03 21:05:27 BaseJdbcLogger.java DEBUG <==    Updates: 1
+2018-04-03 21:05:27 JdbcTransaction.java DEBUG Committing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:27 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:27 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:27 PooledDataSource.java DEBUG Returned connection 112061925 to pool.
+2018-04-03 21:05:48 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 21:05:48 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 21:05:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 21:05:48 JdbcTransaction.java DEBUG Opening JDBC Connection
+2018-04-03 21:05:48 PooledDataSource.java DEBUG Created connection 112061925.
+2018-04-03 21:05:48 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_order (orderNo,orderTime,orderPerson) values(?,?,?) 
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG ==> Parameters: 123442(String), 746(String), skjfj(String)
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG <==    Updates: 1
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_product (proNo,proName,type,proNum,price) values(?,?,?,?,?) 
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG ==> Parameters: 14(String), uidfh(String), null, 672347(Integer), 1234(Integer)
+2018-04-03 21:05:48 BaseJdbcLogger.java DEBUG <==    Updates: 1
+2018-04-03 21:05:48 JdbcTransaction.java DEBUG Committing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:48 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:48 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
+2018-04-03 21:05:48 PooledDataSource.java DEBUG Returned connection 112061925 to pool.
