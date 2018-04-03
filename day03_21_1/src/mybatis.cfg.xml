@@ -5,6 +5,9 @@
 
    <settings>
       <setting name="logImpl" value="LOG4J" />
+       <setting name="lazyLoadingEnabled" value="true"/>
+      <setting name="aggressiveLazyLoading" value="false"/>
+      
    </settings>
 
     <!-- 配置mybatis运行环境 -->

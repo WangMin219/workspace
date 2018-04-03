@@ -6,12 +6,6 @@
 <select id="selectCardById" resultType="com.vo.Card">
 	select * from tb_card where id=#{id}
 </select>
-
-
-
-
-
-
 <!-- 插入一条数据 -->
 <insert id="saveCard" parameterType="com.vo.Card">
 <selectKey keyProperty="id" resultType="int" order="AFTER">

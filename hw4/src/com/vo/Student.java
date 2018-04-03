@@ -5,17 +5,10 @@ public class Student {
 	private int stuNo;
 	private String stuName;
 	private String className;
+	private Card card;
 	private int stuId;
 	public Student() {
 		super();
-	}
-	public Student(int id, int stuNo, String stuName, String className, int stuId) {
-		super();
-		this.id = id;
-		this.stuNo = stuNo;
-		this.stuName = stuName;
-		this.className = className;
-		this.stuId = stuId;
 	}
 	public int getId() {
 		return id;
@@ -41,6 +34,13 @@ public class Student {
 	public void setClassName(String className) {
 		this.className = className;
 	}
+	public Card getCard() {
+		return card;
+	}
+	public void setCard(Card card) {
+		this.card = card;
+	}
+	
 	public int getStuId() {
 		return stuId;
 	}
@@ -50,8 +50,9 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", stuNo=" + stuNo + ", stuName=" + stuName + ", className=" + className
-				+ ", stuId=" + stuId + "]";
+				+ ", card=" + card + ", stuId=" + stuId + "]";
 	}
+	
 	
 
 }

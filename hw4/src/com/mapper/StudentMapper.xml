@@ -8,20 +8,30 @@
 		<result property="stuNo" column="stuNo" />
 		<result property="stuName" column="stuName" />
 		<result property="className" column="className" />
-		<!-- 多对1 -->
-		<association property="card"  javaType="com.vo.Card">
-			<id property="id" column="id" />
-			<result property="cardNo" column="cardNo" />
-			<result property="departName" column="departName" />
-			<result property="stuId" column="stuId" />
-		</association>
+
+		<!-- 一对一映射：association -->
+		<association property="card" column="stuId"
+			select="com.mapper.CardMapper.selectCardById" javaType="com.vo.Card" />
 	</resultMap>
 
 	<select id="selectStudentById" parameterType="int" resultMap="studentResultMap">
-        select * from tb_student s,tb_card c
-        where s.stuId=c.id and s.id=#{id}
+		select * from tb_student where id=#{id}
 	</select>
-
 	
+	<!-- insert语句 -->
+	<insert id="insertStudent" parameterType="com.vo.Student">
+	    insert tb_student(stuNo,stuName,className,stuId) values(#{stuNo},#{stuName},#{className},#{stuId})
+	</insert>
+	
+	
+	
+	
+	<update id="updateStudentById" parameterType="com.vo.Student">
+	    update tb_student set stuNo=#{stuNo},stuName=#{stuName},className=#{className},stuId=#{stuId} where id=#{id}
+	</update>	
+	
+	
+
+
 
 </mapper>

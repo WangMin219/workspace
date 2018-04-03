@@ -32,6 +32,9 @@
         <mapper resource="com/mapper/CardMapper.xml"/>
    
         <mapper resource="com/mapper/StudentMapper.xml"/>
+          <mapper resource="com/mapper/ProductMapper.xml"/>
+   
+        <mapper resource="com/mapper/OrderMapper.xml"/>
     </mappers>
 
 

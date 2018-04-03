@@ -948,3 +948,42 @@
 2018-03-23 08:13:25 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@55d56113]
 2018-03-23 08:13:25 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@55d56113]
 2018-03-23 08:13:25 PooledDataSource.java DEBUG Returned connection 1440047379 to pool.
+2018-04-03 16:57:36 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 16:57:36 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 16:57:36 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 16:57:36 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 16:57:36 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 16:57:36 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 16:57:36 JdbcTransaction.java DEBUG Opening JDBC Connection
+2018-04-03 16:57:36 PooledDataSource.java DEBUG Created connection 1440047379.
+2018-04-03 16:57:36 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@55d56113]
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_person where id=?; 
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ====>  Preparing: select * from tb_card where id=? 
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ====> Parameters: 1(Integer)
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG <====      Total: 1
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG <==      Total: 1
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ==>  Preparing: insert into tb_card(code) values (?) 
+2018-04-03 16:57:36 BaseJdbcLogger.java DEBUG ==> Parameters: 1313(Integer)
+2018-04-03 20:31:48 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 20:31:48 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 20:31:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 20:31:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 20:31:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 20:31:48 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 20:31:49 JdbcTransaction.java DEBUG Opening JDBC Connection
+2018-04-03 20:31:49 PooledDataSource.java DEBUG Created connection 1440047379.
+2018-04-03 20:31:49 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.Connection@55d56113]
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from tb_student where clazz_id=? 
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==> Parameters: 2(Integer)
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG <==      Total: 0
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==>  Preparing: delete from tb_clazz where id=? 
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==> Parameters: 24(Integer)
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG <==    Updates: 0
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==>  Preparing: delete from tb_student where id=? 
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG ==> Parameters: 4(Integer)
+2018-04-03 20:31:49 BaseJdbcLogger.java DEBUG <==    Updates: 0
+2018-04-03 20:31:49 JdbcTransaction.java DEBUG Committing JDBC Connection [com.mysql.jdbc.Connection@55d56113]
+2018-04-03 20:31:49 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@55d56113]
+2018-04-03 20:31:49 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@55d56113]
+2018-04-03 20:31:49 PooledDataSource.java DEBUG Returned connection 1440047379 to pool.

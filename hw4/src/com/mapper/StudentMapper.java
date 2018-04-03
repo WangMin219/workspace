@@ -3,7 +3,11 @@ package com.mapper;
 import com.vo.Student;
 
 public interface StudentMapper {
-	//²éÑ¯Ñ§ÉúĞÅÏ¢¸½´ø²éÑ¯cardĞÅÏ¢£¿£¿£¿
+	//æŸ¥è¯¢å­¦ç”Ÿä¿¡æ¯é€šè¿‡id
 	public Student selectStudentById(int id);
+	//æ’å…¥
+	public void insertStudent(Student student);
+	//	//ä¿®æ”¹æ‰å‰¯è¡¨çš„id  ä¸»è¡¨çš„stuid å¤–é”®ä¹Ÿè¦å˜
+	public void updateStudentById(Student student);
 
 }

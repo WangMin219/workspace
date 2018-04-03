@@ -1,1 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <mapper namespace="com.mapper.CardMapper">
+ <select id="selectCardById"  parameterType="int" resultType="com.vo.Card">
+ select * from tb_stucard where id=#{id}
+ </select>
+ 
+ 
+ 
+     <insert id="insertCard" parameterType="com.vo.Card">
+         <!-- 获取刚插入的card的自动生成的主键id；（用来插入person表的card_id）-->
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() AS ID 
+        </selectKey>
+        insert into tb_stucard(cardNo,departName,birthplace) value(#{cardNo},#{departName},#{birthplace})
+    </insert>
+ 
+ <!-- 删除副表时会删除掉自己的id 我要做的就是删除副表的一条信息也删除主表的那条信息 -->
+ <delete id="deleteCardById" parameterType="int">
+	    delete from tb_stucard where id=#{id}
+</delete>
+
+
+<update id="updateCardById" parameterType="com.vo.Card">
+	    update tb_stucard set id=#{id},cardNo=#{cardNo},departName=#{departName},birthplace=#{birthplace}
+	    where id=#{id}
+	</update>
+
+ 
+ 
+ </mapper>

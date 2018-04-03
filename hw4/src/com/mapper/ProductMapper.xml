@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ProductMapper">
+   
+
+	<resultMap type="com.vo.Product" id="productResultMapper">
+		<id property="id" column="id" />
+		<result property="proNo" column="proNo" />
+		<result property="proName" column="proName" />
+		<result property="type" column="type" />
+		<result property="proNum" column="proNum" />
+		<result property="price" column="price" />
+
+		<!--多对一映射：association -->
+		<association property="order"  javaType="com.vo.Order" >
+		  <id property="id" column="id" />
+		  <result property="cardNo" column="cardNo" />
+		  <result property="departName" column="departName" />  
+		    <result property="birthplace" column="birthplace" />     
+		</association>
+	</resultMap>
+	
+
+   <!-- 根据班级id查询学生信息 -->
+   <select id="selectProductByOrderId" parameterType="int" resultMap="productResultMapper">
+		select * from tb_product
+	    where order_id=#{id}
+	</select>
+	
+	
+	
+	<insert id="insertProduct" parameterType="com.vo.Product"  >
+	insert into tb_product (proNo,proName,type,proNum,price)
+	values(#{proNo},#{proName},#{type},#{proNum},#{price})
+	</insert>
+
+
+
+
+
+</mapper>
