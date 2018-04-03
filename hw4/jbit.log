@@ -1384,3 +1384,9 @@
 2018-04-03 21:05:48 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.Connection@6adede5]
 2018-04-03 21:05:48 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.Connection@6adede5]
 2018-04-03 21:05:48 PooledDataSource.java DEBUG Returned connection 112061925 to pool.
+2018-04-03 23:09:58 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 23:09:58 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-04-03 23:09:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 23:09:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 23:09:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2018-04-03 23:09:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.

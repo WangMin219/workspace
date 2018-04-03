@@ -12,6 +12,7 @@ public interface ProductMapper {
 	public void insertProduct(Product product);
 	
 	public List<Product> selectProductByOrderId(Integer id);
-	
+	//删除
+	public void deleteProductById(int id);
 
 }

@@ -2,6 +2,7 @@ package com.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -34,22 +35,31 @@ public class OneToMany {
 //			System.out.println(order);
 			
 			
+//			OrderMapper om=session.getMapper(OrderMapper.class);
+//			ProductMapper pm=session.getMapper(ProductMapper.class);
+//			Order o1=new Order();
+//			o1.setOrderNo("123442");
+//			o1.setOrderTime("746");
+//			o1.setOrderPerson("skjfj");
+//			om.insertOrder(o1);
+//			
+//			Product pro1=new Product();
+//			pro1.setProNo("14");
+//			pro1.setProName("uidfh");
+//			pro1.setPrice(1234);
+//			pro1.setProNum(672347);
+//			pro1.setOrder_id(o1.getId());
+//			pm.insertProduct(pro1);
+			
 			OrderMapper om=session.getMapper(OrderMapper.class);
 			ProductMapper pm=session.getMapper(ProductMapper.class);
-			Order o1=new Order();
-			o1.setOrderNo("123442");
-			o1.setOrderTime("746");
-			o1.setOrderPerson("skjfj");
-			om.insertOrder(o1);
+			List<Product> list=(List<Product>) pm.selectProductByOrderId(1);
 			
-			Product pro1=new Product();
-			pro1.setProNo("14");
-			pro1.setProName("uidfh");
-			pro1.setPrice(1234);
-			pro1.setProNum(672347);
-			pro1.setOrder_id(o1.getId());
-			pm.insertProduct(pro1);
-			
+			if(list.size()>0) {
+				System.out.println("有商品不能删");
+			}else {
+				pm.deleteProductById(2);
+			}
 			
 			
 			
