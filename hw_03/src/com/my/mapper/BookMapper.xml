@@ -52,32 +52,4 @@ update tb_book SET price=#{price} WHERE id=#{id}
 DELETE FROM tb_book
 WHERE id=#{id};
 </delete>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </mapper>

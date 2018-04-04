@@ -27,7 +27,7 @@ public class OneToMany {
 		  
 //		    //根据商商品查询所有
 //			ProductMapper pm=session.getMapper(ProductMapper.class);
-//			Product pro1=pm.selectProductByOrderId(1);
+//			Product pro1=pm.selectProductById(1);
 //			System.out.println(pro1);
 //			//根据订单查询所有信息
 //			OrderMapper om=session.getMapper(OrderMapper.class);

@@ -7,7 +7,7 @@ import com.vo.Student;
 
 public interface ProductMapper {
 	
-	public Product selectProductByOrderId(int id);
+	public Product selectProductById(int id);
 	//插入商品
 	public void insertProduct(Product product);
 	

@@ -22,7 +22,7 @@
 	
 
    <!-- 根据班级id查询shangpin信息 -->
-   <select id="selectProductByOrderId" parameterType="int" resultMap="productResultMapper">
+   <select id="selectProductById" parameterType="int" resultMap="productResultMapper">
 		select * from tb_product
 	    where order_id=#{id}
 	</select>
