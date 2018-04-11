@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!-- 引入约束 -->  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:p="http://www.springframework.org/schema/p"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="  
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+    <!-- 将所需要的bean写到这里，被beans包裹着 -->  
+      
+  <!--    <bean id="hello" class="com.vo.Hello">
+        <property name="msg" >
+        <value>hello world</value>
+        
+        </property>
+       
+     </bean>  -->
+     
+      <bean id="course" class="com.vo.Course">
+        <property name="id" value="001"/>
+        <property name="Cname" value="数据结构"/>
+          <property name="Chour" value="4"/>
+        <property name="teacher" value="朱李华"/>
+     </bean> 
+     <bean id="course1" class="com.vo.Course">
+     <constructor-arg value="2"/>
+      <constructor-arg value="java"/>
+       <constructor-arg value="2"/>
+       
+        <constructor-arg value="建勇"/>
+   
+     
+     
+     </bean>
+</beans>   
+
+     
+
+
