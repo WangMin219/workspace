@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!-- 引入约束 -->  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:p="http://www.springframework.org/schema/p"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="  
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+    <!-- 将所需要的bean写到这里，被beans包裹着 -->  
+
+       <bean id="exampleBean" class="com.vo.ExampleBean">
+       <property name="id" value="111"></property>
+        <property name="name" value="feixun"></property>
+        <property name="school">
+        <list>
+        <value>xiaoxue</value>
+         <value>daxue</value>
+        
+        </list>
+        
+        </property>
+        <property name="students">
+        <map>
+        <entry key="6435" value="jd"></entry>
+        <entry key="64335" value="jdd"></entry>
+        
+        </map>
+        
+        </property>
+       </bean>
+       
+     
+     
+
+</beans>   
+
+     
+
+
