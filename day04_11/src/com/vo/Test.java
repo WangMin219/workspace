@@ -8,6 +8,7 @@ public class Test {
 //		ApplicationContext axt=new ClassPathXmlApplicationContext("ApplicationContext.xml");
 //		Hello hello=(Hello) axt.getBean("hello");
 //		System.out.println(hello.getMsg());
+		//维克托飞机哇哦看风景
 		
 		ApplicationContext axt=new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		Course course=(Course) axt.getBean("course");
