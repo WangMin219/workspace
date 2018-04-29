@@ -1,10 +1,10 @@
-package com.simplefactory;
+package com.operation;
 
 public class Add extends Operator{
 	public double getResult() {
 		double result=0;
-	//	result=strA+strB;
-		return result;
+		return result=this.getStrA()+this.getStrB();
+		
 	}
 
 }
