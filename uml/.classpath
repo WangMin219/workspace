@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="simplefactory"/>
 	<classpathentry kind="src" path="strategy"/>
+	<classpathentry kind="src" path="decorator"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
