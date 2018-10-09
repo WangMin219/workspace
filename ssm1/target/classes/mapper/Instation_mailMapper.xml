@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wh.dao.Instation_mailMapper">
+  <resultMap id="BaseResultMap" type="com.wh.bean.Instation_mail">
+    <id column="MAIL_ID" jdbcType="INTEGER" property="mailId" />
+    <result column="SENDER_ID" jdbcType="INTEGER" property="senderId" />
+    <result column="RECEIVER_ID" jdbcType="INTEGER" property="receiverId" />
+    <result column="THEME" jdbcType="VARCHAR" property="theme" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="CONTENT" jdbcType="VARCHAR" property="content" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    MAIL_ID, SENDER_ID, RECEIVER_ID, THEME, STATUS, REMARK, CREATE_TIME, UPDATE_TIME, 
+    CONTENT
+  </sql>
+  <select id="selectByExample" parameterType="com.wh.bean.Instation_mailExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from instation_mail
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from instation_mail
+    where MAIL_ID = #{mailId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from instation_mail
+    where MAIL_ID = #{mailId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wh.bean.Instation_mailExample">
+    delete from instation_mail
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wh.bean.Instation_mail">
+    insert into instation_mail (MAIL_ID, SENDER_ID, RECEIVER_ID, 
+      THEME, STATUS, REMARK, 
+      CREATE_TIME, UPDATE_TIME, CONTENT
+      )
+    values (#{mailId,jdbcType=INTEGER}, #{senderId,jdbcType=INTEGER}, #{receiverId,jdbcType=INTEGER}, 
+      #{theme,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{content,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.wh.bean.Instation_mail">
+    insert into instation_mail
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="mailId != null">
+        MAIL_ID,
+      </if>
+      <if test="senderId != null">
+        SENDER_ID,
+      </if>
+      <if test="receiverId != null">
+        RECEIVER_ID,
+      </if>
+      <if test="theme != null">
+        THEME,
+      </if>
+      <if test="status != null">
+        STATUS,
+      </if>
+      <if test="remark != null">
+        REMARK,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME,
+      </if>
+      <if test="content != null">
+        CONTENT,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="mailId != null">
+        #{mailId,jdbcType=INTEGER},
+      </if>
+      <if test="senderId != null">
+        #{senderId,jdbcType=INTEGER},
+      </if>
+      <if test="receiverId != null">
+        #{receiverId,jdbcType=INTEGER},
+      </if>
+      <if test="theme != null">
+        #{theme,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wh.bean.Instation_mailExample" resultType="java.lang.Long">
+    select count(*) from instation_mail
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update instation_mail
+    <set>
+      <if test="record.mailId != null">
+        MAIL_ID = #{record.mailId,jdbcType=INTEGER},
+      </if>
+      <if test="record.senderId != null">
+        SENDER_ID = #{record.senderId,jdbcType=INTEGER},
+      </if>
+      <if test="record.receiverId != null">
+        RECEIVER_ID = #{record.receiverId,jdbcType=INTEGER},
+      </if>
+      <if test="record.theme != null">
+        THEME = #{record.theme,jdbcType=VARCHAR},
+      </if>
+      <if test="record.status != null">
+        STATUS = #{record.status,jdbcType=VARCHAR},
+      </if>
+      <if test="record.remark != null">
+        REMARK = #{record.remark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        CREATE_TIME = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updateTime != null">
+        UPDATE_TIME = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.content != null">
+        CONTENT = #{record.content,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update instation_mail
+    set MAIL_ID = #{record.mailId,jdbcType=INTEGER},
+      SENDER_ID = #{record.senderId,jdbcType=INTEGER},
+      RECEIVER_ID = #{record.receiverId,jdbcType=INTEGER},
+      THEME = #{record.theme,jdbcType=VARCHAR},
+      STATUS = #{record.status,jdbcType=VARCHAR},
+      REMARK = #{record.remark,jdbcType=VARCHAR},
+      CREATE_TIME = #{record.createTime,jdbcType=TIMESTAMP},
+      UPDATE_TIME = #{record.updateTime,jdbcType=TIMESTAMP},
+      CONTENT = #{record.content,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wh.bean.Instation_mail">
+    update instation_mail
+    <set>
+      <if test="senderId != null">
+        SENDER_ID = #{senderId,jdbcType=INTEGER},
+      </if>
+      <if test="receiverId != null">
+        RECEIVER_ID = #{receiverId,jdbcType=INTEGER},
+      </if>
+      <if test="theme != null">
+        THEME = #{theme,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        STATUS = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null">
+        REMARK = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="content != null">
+        CONTENT = #{content,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where MAIL_ID = #{mailId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wh.bean.Instation_mail">
+    update instation_mail
+    set SENDER_ID = #{senderId,jdbcType=INTEGER},
+      RECEIVER_ID = #{receiverId,jdbcType=INTEGER},
+      THEME = #{theme,jdbcType=VARCHAR},
+      STATUS = #{status,jdbcType=VARCHAR},
+      REMARK = #{remark,jdbcType=VARCHAR},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+      CONTENT = #{content,jdbcType=VARCHAR}
+    where MAIL_ID = #{mailId,jdbcType=INTEGER}
+  </update>
+</mapper>

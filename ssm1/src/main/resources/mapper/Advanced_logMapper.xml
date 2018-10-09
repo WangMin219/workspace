@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wh.dao.Advanced_logMapper">
+  <resultMap id="BaseResultMap" type="com.wh.bean.Advanced_log">
+    <id column="LOG_ID" jdbcType="INTEGER" property="logId" />
+    <result column="BUSINESS_ID" jdbcType="INTEGER" property="businessId" />
+    <result column="CREATOR" jdbcType="INTEGER" property="creator" />
+    <result column="ADVANCE_CONTENT" jdbcType="VARCHAR" property="advanceContent" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="ADVANCE_STATUS" jdbcType="CHAR" property="advanceStatus" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    LOG_ID, BUSINESS_ID, CREATOR, ADVANCE_CONTENT, CREATE_TIME, ADVANCE_STATUS
+  </sql>
+  <select id="selectByExample" parameterType="com.wh.bean.Advanced_logExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from advanced_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from advanced_log
+    where LOG_ID = #{logId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from advanced_log
+    where LOG_ID = #{logId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wh.bean.Advanced_logExample">
+    delete from advanced_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wh.bean.Advanced_log">
+    insert into advanced_log (LOG_ID, BUSINESS_ID, CREATOR, 
+      ADVANCE_CONTENT, CREATE_TIME, ADVANCE_STATUS
+      )
+    values (#{logId,jdbcType=INTEGER}, #{businessId,jdbcType=INTEGER}, #{creator,jdbcType=INTEGER}, 
+      #{advanceContent,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{advanceStatus,jdbcType=CHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.wh.bean.Advanced_log">
+    insert into advanced_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="logId != null">
+        LOG_ID,
+      </if>
+      <if test="businessId != null">
+        BUSINESS_ID,
+      </if>
+      <if test="creator != null">
+        CREATOR,
+      </if>
+      <if test="advanceContent != null">
+        ADVANCE_CONTENT,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="advanceStatus != null">
+        ADVANCE_STATUS,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="logId != null">
+        #{logId,jdbcType=INTEGER},
+      </if>
+      <if test="businessId != null">
+        #{businessId,jdbcType=INTEGER},
+      </if>
+      <if test="creator != null">
+        #{creator,jdbcType=INTEGER},
+      </if>
+      <if test="advanceContent != null">
+        #{advanceContent,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="advanceStatus != null">
+        #{advanceStatus,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wh.bean.Advanced_logExample" resultType="java.lang.Long">
+    select count(*) from advanced_log
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update advanced_log
+    <set>
+      <if test="record.logId != null">
+        LOG_ID = #{record.logId,jdbcType=INTEGER},
+      </if>
+      <if test="record.businessId != null">
+        BUSINESS_ID = #{record.businessId,jdbcType=INTEGER},
+      </if>
+      <if test="record.creator != null">
+        CREATOR = #{record.creator,jdbcType=INTEGER},
+      </if>
+      <if test="record.advanceContent != null">
+        ADVANCE_CONTENT = #{record.advanceContent,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        CREATE_TIME = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.advanceStatus != null">
+        ADVANCE_STATUS = #{record.advanceStatus,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update advanced_log
+    set LOG_ID = #{record.logId,jdbcType=INTEGER},
+      BUSINESS_ID = #{record.businessId,jdbcType=INTEGER},
+      CREATOR = #{record.creator,jdbcType=INTEGER},
+      ADVANCE_CONTENT = #{record.advanceContent,jdbcType=VARCHAR},
+      CREATE_TIME = #{record.createTime,jdbcType=TIMESTAMP},
+      ADVANCE_STATUS = #{record.advanceStatus,jdbcType=CHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wh.bean.Advanced_log">
+    update advanced_log
+    <set>
+      <if test="businessId != null">
+        BUSINESS_ID = #{businessId,jdbcType=INTEGER},
+      </if>
+      <if test="creator != null">
+        CREATOR = #{creator,jdbcType=INTEGER},
+      </if>
+      <if test="advanceContent != null">
+        ADVANCE_CONTENT = #{advanceContent,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="advanceStatus != null">
+        ADVANCE_STATUS = #{advanceStatus,jdbcType=CHAR},
+      </if>
+    </set>
+    where LOG_ID = #{logId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wh.bean.Advanced_log">
+    update advanced_log
+    set BUSINESS_ID = #{businessId,jdbcType=INTEGER},
+      CREATOR = #{creator,jdbcType=INTEGER},
+      ADVANCE_CONTENT = #{advanceContent,jdbcType=VARCHAR},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      ADVANCE_STATUS = #{advanceStatus,jdbcType=CHAR}
+    where LOG_ID = #{logId,jdbcType=INTEGER}
+  </update>
+</mapper>

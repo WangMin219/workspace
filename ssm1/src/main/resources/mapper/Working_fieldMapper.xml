@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wh.dao.Working_fieldMapper">
+  <resultMap id="BaseResultMap" type="com.wh.bean.Working_field">
+    <id column="FIELD_ID" jdbcType="INTEGER" property="fieldId" />
+    <result column="FIELD_NAME" jdbcType="VARCHAR" property="fieldName" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    FIELD_ID, FIELD_NAME
+  </sql>
+  <select id="selectByExample" parameterType="com.wh.bean.Working_fieldExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from working_field
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from working_field
+    where FIELD_ID = #{fieldId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from working_field
+    where FIELD_ID = #{fieldId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.wh.bean.Working_fieldExample">
+    delete from working_field
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.wh.bean.Working_field">
+    insert into working_field (FIELD_ID, FIELD_NAME)
+    values (#{fieldId,jdbcType=INTEGER}, #{fieldName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.wh.bean.Working_field">
+    insert into working_field
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fieldId != null">
+        FIELD_ID,
+      </if>
+      <if test="fieldName != null">
+        FIELD_NAME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fieldId != null">
+        #{fieldId,jdbcType=INTEGER},
+      </if>
+      <if test="fieldName != null">
+        #{fieldName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.wh.bean.Working_fieldExample" resultType="java.lang.Long">
+    select count(*) from working_field
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update working_field
+    <set>
+      <if test="record.fieldId != null">
+        FIELD_ID = #{record.fieldId,jdbcType=INTEGER},
+      </if>
+      <if test="record.fieldName != null">
+        FIELD_NAME = #{record.fieldName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update working_field
+    set FIELD_ID = #{record.fieldId,jdbcType=INTEGER},
+      FIELD_NAME = #{record.fieldName,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wh.bean.Working_field">
+    update working_field
+    <set>
+      <if test="fieldName != null">
+        FIELD_NAME = #{fieldName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where FIELD_ID = #{fieldId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wh.bean.Working_field">
+    update working_field
+    set FIELD_NAME = #{fieldName,jdbcType=VARCHAR}
+    where FIELD_ID = #{fieldId,jdbcType=INTEGER}
+  </update>
+</mapper>

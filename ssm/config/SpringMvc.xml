@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://code.alibabatech.com/schema/dubbo 
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+        
+  
+  
+  
+      <!--  servlet     扫包-->
+      
+    <mvc:default-servlet-handler />      
+    <!-- <mvc:resources mapping="/images/**" location="/images/"/>   
+	<mvc:resources location="/js/" mapping="js/**" /> -->
+      
+      <context:component-scan base-package="net.wanho.controller"></context:component-scan>
+
+    <mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven>
+
+<!--   配置试图解析器 -->
+  
+  
+   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+         <property name="prefix" value="/WEB-INF/jsp/"></property>
+   <property name="suffix" value=".jsp"></property>
+   </bean>
+
+
+
+  <bean id="conversionService"   class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+      <property name="converters">
+          <set>
+          
+             <bean  class="net.wanho.controller.converter.ItemGlobalToDateConverter"></bean>
+          </set>
+      </property>
+  </bean>
+  
+  <!-- 定义文件上传解析器 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+    <property name="maxUploadSize" value="10485760" />  
+  	</bean>
+  	
+  	
+  	
+
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!-- 拦截所有mvc控制器 -->
+			<mvc:mapping path="/**"/>
+			<mvc:exclude-mapping path="/login" />
+			<bean class="net.wanho.interceptor.LoginInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+  
+  
+</beans>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<!-- 配置数据库连接信息 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://127.0.0.1/cms" userId="root" password="123">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<!-- 指定JavaBean生成的位置 -->
+		<javaModelGenerator targetPackage="com.wh.bean"
+			targetProject=".\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<!-- 指定sql映射文件生成位置 -->
+		<sqlMapGenerator targetPackage="mapper" targetProject=".\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<!-- 指定dao接口生成的位置 -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.wh.dao" targetProject=".\src\main\java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- 指定每个表的生成策略 -->
+		<table tableName="advanced_log" domainObjectName="Advanced_log">
+		</table>
+		<table tableName="business" domainObjectName="Business">
+		</table>
+		<table tableName="business_source" domainObjectName="Business_source">
+		</table>
+		<table tableName="business_type" domainObjectName="Business_type">
+		</table>
+		<table tableName="comment" domainObjectName="Comment">
+		</table>
+		<table tableName="customer" domainObjectName="Customer">
+		</table>
+		<table tableName="customer_source" domainObjectName="Customer_source">
+		</table>
+		<table tableName="daily_record" domainObjectName="Daily_record">
+		</table>
+		<table tableName="department" domainObjectName="Department">
+		</table>
+		<table tableName="emm_position" domainObjectName="Emm_position">
+		</table>
+		<table tableName="employee" domainObjectName="Employee">
+		</table>
+		<table tableName="individual_task" domainObjectName="Individual_task">
+		</table>
+		<table tableName="instation_mail" domainObjectName="Instation_mail">
+		</table>
+		<table tableName="link_man" domainObjectName="Link_man">
+		</table>
+		<table tableName="log_in" domainObjectName="Log_in">
+		</table>
+		<table tableName="menu" domainObjectName="Menu">
+		</table>
+		<table tableName="orders" domainObjectName="Orders">
+		</table>
+		<table tableName="orders_detail" domainObjectName="Orders_detail">
+		</table>
+		<table tableName="position_menu_relations" domainObjectName="Position_menu_relations">
+		</table>
+		<table tableName="process" domainObjectName="Process">
+		</table>
+		<table tableName="product" domainObjectName="Product">
+		</table>
+		<table tableName="product_inventory" domainObjectName="Product_inventory">
+		</table>
+		<table tableName="product_type" domainObjectName="Product_type">
+		</table>
+		<table tableName="store" domainObjectName="Store">
+		</table>
+		<table tableName="task_user_relations" domainObjectName="Task_user_relations">
+		</table>
+		<table tableName="working_field" domainObjectName="Working_field">
+		</table>
+
+	</context>
+</generatorConfiguration>
